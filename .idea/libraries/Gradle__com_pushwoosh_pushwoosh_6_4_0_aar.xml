@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.pushwoosh:pushwoosh:6.4.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.jdks/openjdk-17.0.2/caches/transforms-2/files-2.1/8c84466075674a91722dee4c9f21fd92/jetified-pushwoosh-6.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.jdks/openjdk-17.0.2/caches/transforms-2/files-2.1/8c84466075674a91722dee4c9f21fd92/jetified-pushwoosh-6.4.0/res" />
+      <root url="file://$USER_HOME$/.jdks/openjdk-17.0.2/caches/transforms-2/files-2.1/8c84466075674a91722dee4c9f21fd92/jetified-pushwoosh-6.4.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

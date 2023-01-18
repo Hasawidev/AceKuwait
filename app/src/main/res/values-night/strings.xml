@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notify_me">NOTIFY ME</string>
+    <string name="your_wishlist_empty">Your wishlist is empty !</string>
+    <string name="explore_more">Explore more and shortlist some items</string>
+    <string name="no_products">There are no products</string>
+    <string name="in_notify_me">in Notify Me</string>
+    <string name="go_find_product">Go find the products you like</string>
+    <string name="order_packed">Order Packed</string>
+    <string name="order_shipped">Order Shipped</string>
+    <string name="order_delivered">Order Delivered</string>
+    <string name="return_qty">Return Qty</string>
+    <string name="qty">Qty</string>
+    <string name="product_returned">Product Returned</string>
+    <string name="shipping_charges">Shipping charges</string>
+    <string name="call">Call</string>
+    <string name="select_any_product">Please select any product to proceed</string>
+    <string name="exit">Exit</string>
+    <string name="do_you_want_to_exit_the_app">Do you want to exit the app?</string>
+    <string name="enter_valid_mobile">Please enter a valid mobile number</string>
+    <string name="search_here">Search Here</string>
+    <string name="search_result">Search Result</string>
+    <string name="recent_search">Recent Search</string>
+    <string name="no_search_results">No Search Results found</string>
+</resources>

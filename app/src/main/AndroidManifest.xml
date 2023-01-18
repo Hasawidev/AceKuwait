@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.alhasawi.acekuwait">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-permission
+        android:name="android.permission.REQUEST_INSTALL_PACKAGES"
+        tools:node="remove" />
+
+    <application
+        android:name=".ui.base.AceHardware"
+        android:allowBackup="false"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AceAppTheme"
+        tools:replace="android:allowBackup">
+
+        <activity
+            android:name="com.alhasawi.acekuwait.ui.main.view.splash.SplashActivity"
+            android:exported="true"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="acekuwait.page.link"
+                    android:scheme="https" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!-- Branch URI Scheme -->
+            <intent-filter>
+                <data
+                    android:host="open"
+                    android:scheme="acekuwaitonline://" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+
+            <!-- Branch App Links (optional) -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="acekuwait.app.link"
+                    android:scheme="https" />
+            </intent-filter>
+
+            <!-- Pushwoosh URI Scheme -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="products"
+                    android:pathPrefix=""
+                    android:scheme="pushwoosh.acekuwait" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.alhasawi.acekuwait.ui.main.view.signin.SigninActivity"
+            android:exported="false"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name="com.alhasawi.acekuwait.ui.main.view.signin.select_language.SelectLanguageActivity"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTop">
+
+        </activity>
+        <activity
+            android:name="com.alhasawi.acekuwait.ui.main.view.DashboardActivity"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:theme="@style/AceAppTheme"
+            android:windowSoftInputMode="adjustPan">
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+
+        </activity>
+        <activity
+            android:name="com.alhasawi.acekuwait.ui.main.view.dashboard.product.ProductDetailsFragment$ProductImageActivity"
+            android:exported="false"
+            android:theme="@style/AceAppTheme">
+
+        </activity>
+
+        <activity
+            android:name="com.pushwoosh.DeepLinkActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            tools:ignore="AppLinkUrlError">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="pw-1E22D-031A6" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.pushwoosh.notification_icon"
+            android:value="@drawable/pw_notification" />
+        <meta-data
+            android:name="com.pushwoosh.notification_icon_color"
+            android:value="@color/ace_theme_color" />
+
+        <!--
+ Set custom default icon. This is used when no icon is set for incoming notification messages.
+             See README(https://goo.gl/l4GJaQ) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_ace_logo" />
+        <!--
+ Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/ace_theme_color" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+        <meta-data
+            android:name="firebase_performance_logcat_enabled"
+            android:value="true" />
+        <!--        <meta-data-->
+        <!--            android:name="com.facebook.sdk.ApplicationId"-->
+        <!--            android:value="@string/facebook_app_id" />-->
+        <meta-data
+            android:name="com.pushwoosh.appid"
+            android:value="@string/pushwoosh_app_id" />
+        <meta-data
+            android:name="com.pushwoosh.senderid"
+            android:value="@string/fcm_sender_id" />
+
+        <!--        <activity-->
+        <!--            android:name="com.facebook.FacebookActivity"-->
+        <!--            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"-->
+        <!--            android:label="@string/app_name" />-->
+        <!--        <activity-->
+        <!--            android:name="com.facebook.CustomTabActivity"-->
+        <!--            android:exported="true">-->
+        <!--            <intent-filter>-->
+        <!--                <action android:name="android.intent.action.VIEW" />-->
+
+        <!--                <category android:name="android.intent.category.DEFAULT" />-->
+        <!--                <category android:name="android.intent.category.BROWSABLE" />-->
+
+        <!--                <data android:scheme="@string/fb_login_protocol_scheme" />-->
+        <!--            </intent-filter>-->
+        <!--        </activity>-->
+
+        <!--        <meta-data-->
+        <!--            android:name="com.facebook.sdk.AutoLogAppEventsEnabled"-->
+        <!--            android:value="true" />-->
+
+        <!--        <provider-->
+        <!--            android:name="androidx.core.content.FileProvider"-->
+        <!--            android:authorities="com.alhasawi.acekuwait.provider"-->
+        <!--            android:exported="false"-->
+        <!--            android:grantUriPermissions="true">-->
+        <!--            <meta-data-->
+        <!--                android:name="android.support.FILE_PROVIDER_PATHS"-->
+        <!--                android:resource="@xml/freshchat_file_provider_paths" />-->
+        <!--        </provider>-->
+
+        <service
+            android:name=".ui.main.service.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name=".ui.main.service.ApplicationSelectorReceiver"
+            android:exported="false" />
+
+        <!--         Branch init -->
+        <meta-data
+            android:name="io.branch.sdk.BranchKey"
+            android:value="key_live_kc0xmA4cb8RVEI7KbtMhIofkBuao5zo0" />
+
+    </application>
+
+</manifest>

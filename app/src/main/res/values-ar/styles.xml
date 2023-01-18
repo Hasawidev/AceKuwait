@@ -1,0 +1,126 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!--    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+    <!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+    <!--        <item name="colorPrimary">@color/app_blue</item>-->
+    <!--        <item name="colorPrimaryDark">@color/txt_clr_blue</item>-->
+    <!--        <item name="colorAccent">@color/colorAccent</item>-->
+    <!--    </style>-->
+
+    <style name="AceAppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/ace_theme_color</item>
+        <item name="colorPrimaryDark">@color/ace_theme_color</item>
+        <item name="colorAccent">@color/ace_theme_color</item>
+        <item name="windowActionBar">false</item>
+        <item name="actionMenuTextColor">@color/ace_theme_color</item>
+        <item name="android:actionMenuTextColor">@color/ace_theme_color</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!--    <style name="AppTheme.NoActionBar">-->
+    <!--        <item name="windowActionBar">false</item>-->
+    <!--        <item name="windowNoTitle">true</item>-->
+    <!--    </style>-->
+
+    <style name="MyToolbarTheme">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:textColorPrimary">@color/ace_theme_color</item>
+        <item name="android:editTextColor">@color/ace_theme_color</item>
+        <item name="android:textColorSecondary">@color/ace_theme_color</item>
+        <item name="fontFamily">@font/avantgarde_regular</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--    <style name="FullscreenTheme" parent="AppTheme.NoActionBar">-->
+    <!--        <item name="windowActionBar">false</item>-->
+    <!--    </style>-->
+
+    <style name="CheckoutTabLayoutStyle" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/ace_theme_color</item>
+        <item name="android:background">@drawable/white_rounded_rectangle_16dp</item>
+        <item name="tabMode">fixed</item>
+        <item name="android:textSize">14sp</item>
+        <item name="tabIndicatorFullWidth">true</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabIndicatorGravity">bottom</item>
+        <item name="colorControlNormal">@color/ace_theme_color</item>
+        <item name="tabTextColor">@color/grey</item>
+        <item name="tabSelectedTextColor">@color/ace_theme_color</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@font/avantgarde_bold</item>
+
+    </style>
+
+    <style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@color/ace_theme_color</item>
+    </style>
+
+    <style name="FullScreenDialogStyle" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/ace_theme_color</item>
+        <item name="colorPrimary">@color/ace_theme_color</item>
+
+        <!-- Set this to true if you want Full Screen without status bar -->
+        <item name="android:windowFullscreen">false</item>
+
+        <item name="android:windowIsFloating">false</item>
+
+        <!-- This is important! Don't forget to set window background -->
+        <item name="android:windowBackground">@color/transparent_dialog</item>
+
+        <!-- Additionally if you want animations when dialog opening -->
+        <item name="android:windowEnterAnimation">@anim/slide_in_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_up</item>
+    </style>
+
+    <style name="full_screen_dialog" parent="@android:style/Theme.Translucent">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+
+    </style>
+
+    <style name="HomeTabLayoutStyle" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/ace_theme_color</item>
+        <item name="tabMode">fixed</item>
+        <item name="android:textSize">14sp</item>
+        <item name="tabIndicatorFullWidth">true</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabTextColor">@color/cart_grey</item>
+        <item name="tabSelectedTextColor">@color/ace_theme_color</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@font/avantgarde_bold</item>
+
+    </style>
+
+    <style name="CalenderViewCustom" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/app_blue</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/app_blue</item>
+    </style>
+
+    <style name="GreenRadioButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/ace_theme_color</item>
+        <item name="colorControlActivated">@color/txt_clr_green</item>
+    </style>
+
+    <style name="AppTheme.Picker" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorPrimary">@color/bright_blue</item>
+        <item name="android:textColorHighlight">@color/bright_blue</item>
+        <item name="colorControlNormal">@color/light_grey</item>
+        <item name="fontFamily">@font/avenir_bold</item>
+        <item name="font">@font/avenir_bold</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <!--    <style name="MyCustomTheme" parent="Theme.Freshchat.Light.DarkActionBar">-->
+    <!--        <item name="colorPrimary">@color/ace_theme_color</item>-->
+    <!--        <item name="colorPrimaryDark">@color/ace_theme_color</item>-->
+    <!--        <item name="colorAccent">@color/ace_theme_color</item>-->
+
+    <!--    </style>-->
+    <!--    <style name="Theme.Freshchat.SelectedTheme" parent="MyCustomTheme" />-->
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycelrviewBanners"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:elevation="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!--        <LinearLayout-->
+        <!--            android:id="@+id/SliderDots"-->
+        <!--            android:layout_width="200dp"-->
+        <!--            android:layout_height="50dp"-->
+        <!--            android:layout_below="@+id/viewPager"-->
+        <!--            android:layout_marginBottom="8dp"-->
+        <!--            android:visibility="visible"-->
+        <!--            android:gravity="center_vertical|center_horizontal"-->
+        <!--            android:orientation="horizontal"-->
+        <!--            app:layout_constraintBottom_toBottomOf="@+id/recycelrviewBanners"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toBottomOf="@+id/viewPagerProductImages" />-->
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <!--    <androidx.cardview.widget.CardView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_margin="8dp"-->
+    <!--        android:elevation="4dp"-->
+    <!--        android:padding="4dp">-->
+
+    <!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:background="@color/white">-->
+
+
+    <!--            <ScrollView-->
+    <!--                android:id="@+id/horizontalScrollView"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:overScrollMode="never"-->
+    <!--                app:layout_constraintEnd_toEndOf="parent"-->
+    <!--                app:layout_constraintStart_toStartOf="parent"-->
+    <!--                app:layout_constraintTop_toTopOf="parent">-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:id="@+id/imageSlider"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_gravity="center_horizontal"-->
+    <!--                    android:orientation="horizontal" />-->
+    <!--            </ScrollView>-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/tvItemName"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginTop="4dp"-->
+    <!--                android:layout_marginBottom="4dp"-->
+    <!--                android:fontFamily="@font/avantgarde_bold"-->
+    <!--                android:text="Face Masks"-->
+    <!--                android:textColor="@color/txt_clr_blue"-->
+    <!--                android:textSize="14sp"-->
+    <!--                android:visibility="gone"-->
+    <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--                app:layout_constraintEnd_toEndOf="@+id/horizontalScrollView"-->
+    <!--                app:layout_constraintStart_toStartOf="parent"-->
+    <!--                app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView" />-->
+
+    <!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+    <!--    </androidx.cardview.widget.CardView>-->
+</layout>

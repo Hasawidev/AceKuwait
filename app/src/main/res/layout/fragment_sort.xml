@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.5"
+            android:background="@color/black" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/filter_bg"
+                android:padding="12dp"
+                app:layout_constraintBottom_toTopOf="@+id/recyclerviewSort"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="@string/sort_by"
+                    android:textColor="@color/ace_theme_color"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_close_red" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerviewSort"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView217"-->
+            <!--            android:layout_width="0dp"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:background="@color/filter_bg"-->
+            <!--            android:fontFamily="@font/roboto_medium"-->
+            <!--            android:gravity="center_horizontal"-->
+            <!--            android:padding="12dp"-->
+            <!--            android:text="@string/filter_by"-->
+            <!--            android:textColor="@color/ace_theme_color"-->
+            <!--            android:textSize="16sp"-->
+            <!--            app:layout_constraintEnd_toEndOf="parent"-->
+            <!--            app:layout_constraintStart_toStartOf="parent"-->
+            <!--            app:layout_constraintTop_toBottomOf="@+id/recyclerviewSort" />-->
+
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView215"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:layout_marginStart="24dp"-->
+            <!--            android:layout_marginTop="16dp"-->
+            <!--            android:text="PRICE RANGE"-->
+            <!--            app:layout_constraintStart_toStartOf="parent"-->
+            <!--            app:layout_constraintTop_toBottomOf="@+id/textView217" />-->
+
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView216"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:layout_marginEnd="24dp"-->
+            <!--            android:text="2 KWD - 10 KWD"-->
+            <!--            app:layout_constraintBottom_toBottomOf="@+id/textView215"-->
+            <!--            app:layout_constraintEnd_toEndOf="parent" />-->
+
+            <!--        <View-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="1dp"-->
+            <!--            android:layout_marginTop="16dp"-->
+            <!--            android:background="@color/view_color"-->
+            <!--            app:layout_constraintEnd_toEndOf="parent"-->
+            <!--            app:layout_constraintStart_toStartOf="parent"-->
+            <!--            app:layout_constraintTop_toBottomOf="@+id/textView215" />-->
+
+            <!--        <View-->
+            <!--            android:id="@+id/view6"-->
+            <!--            android:layout_width="1dp"-->
+            <!--            android:layout_height="50dp"-->
+            <!--            android:layout_marginTop="8dp"-->
+            <!--            android:layout_marginBottom="8dp"-->
+            <!--            android:background="@color/view_color"-->
+            <!--            app:layout_constraintBottom_toBottomOf="@+id/btnApply"-->
+            <!--            app:layout_constraintEnd_toEndOf="parent"-->
+            <!--            app:layout_constraintStart_toStartOf="parent"-->
+            <!--            app:layout_constraintTop_toTopOf="@+id/btnApply" />-->
+
+            <!--        <TextView-->
+            <!--            android:id="@+id/btnClose"-->
+            <!--            android:layout_width="0dp"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:background="@color/ace_theme_color"-->
+            <!--            android:fontFamily="@font/roboto_medium"-->
+            <!--            android:gravity="center_horizontal"-->
+            <!--            android:padding="16dp"-->
+            <!--            android:text="@string/close"-->
+            <!--            android:textColor="@color/white"-->
+            <!--            android:textSize="14sp"-->
+            <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--            app:layout_constraintEnd_toStartOf="@+id/view6"-->
+            <!--            app:layout_constraintStart_toStartOf="parent" />-->
+
+            <!--        <TextView-->
+            <!--            android:id="@+id/btnApply"-->
+            <!--            android:layout_width="0dp"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:background="@color/ace_theme_color"-->
+            <!--            android:fontFamily="@font/roboto_medium"-->
+            <!--            android:padding="16dp"-->
+            <!--            android:text="@string/apply_caps"-->
+            <!--            android:gravity="center_horizontal"-->
+            <!--            android:textColor="@color/white"-->
+            <!--            android:textSize="14sp"-->
+            <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--            app:layout_constraintEnd_toEndOf="parent"-->
+            <!--            app:layout_constraintStart_toEndOf="@+id/view6" />-->
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+
+
+</layout>

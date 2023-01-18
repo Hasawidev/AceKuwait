@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "504381811889",
+    "project_id": "ace-kuwait-e1356",
+    "storage_bucket": "ace-kuwait-e1356.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504381811889:android:e443560921604e735e0690",
+        "android_client_info": {
+          "package_name": "com.alhasawi.acekuwait"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "504381811889-8riuusvc9jitmmvc87040pp0157uqdam.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alhasawi.acekuwait",
+            "certificate_hash": "5ba4809a25be252aa611c624dc1cacaffb619d5c"
+          }
+        },
+        {
+          "client_id": "504381811889-u2vfqjuergikbl9l5tq1kcokreuoutsg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alhasawi.acekuwait",
+            "certificate_hash": "bab3496f8fed1ea9de9b42db14bfb2bc2616562d"
+          }
+        },
+        {
+          "client_id": "504381811889-oojq2bo72j6jgt80u48hl3cdnu5dp2de.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-DR1-DRa1KPHYV9Fib9FC4yksho8Mg40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "504381811889-oojq2bo72j6jgt80u48hl3cdnu5dp2de.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "504381811889-0hthjf6usovigkcob40sse2thf0kejkr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.leza.AceKuwait"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

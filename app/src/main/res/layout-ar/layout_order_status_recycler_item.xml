@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/radioButtonOrderStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:button="@drawable/custom_radio_button_track_order"
+            android:checked="false"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:text="@null"
+            app:layout_constraintBottom_toBottomOf="@+id/tvDate"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvOrderStatus" />
+
+        <View
+            android:id="@+id/viewLine"
+            android:layout_width="1dp"
+            android:layout_height="35dp"
+            android:background="@drawable/vertical_dashed_line"
+            app:layout_constraintEnd_toEndOf="@+id/radioButtonOrderStatus"
+            app:layout_constraintStart_toStartOf="@+id/radioButtonOrderStatus"
+            app:layout_constraintTop_toBottomOf="@+id/radioButtonOrderStatus" />
+
+        <TextView
+            android:id="@+id/tvOrderStatus"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/avantgarde_regular"
+            android:text="ORDER RECEIVED "
+            android:textColor="@color/txt_clr_blue"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imageView7"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/avantgarde_regular"
+            android:text="dfgdfgdfdfd"
+            android:textColor="@color/txt_clr_blue"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/tvOrderStatus"
+            app:layout_constraintTop_toBottomOf="@+id/tvOrderStatus" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvDate"
+            app:layout_constraintStart_toEndOf="@+id/radioButtonOrderStatus"
+            app:layout_constraintTop_toTopOf="@+id/tvOrderStatus"
+            app:srcCompat="@drawable/test" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

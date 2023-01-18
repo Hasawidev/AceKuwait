@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/search"
+        android:title=""
+        android:visible="true"
+        app:showAsAction="always" />
+    <!--    app:actionViewClass="androidx.appcompat.widget.SearchView"-->
+    <!--    app:showAsAction="collapseActionView|always"-->
+    <item
+        android:id="@+id/action_scan"
+        android:icon="@drawable/qr_code"
+        android:title=""
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_notifications"
+        android:icon="@drawable/ic_notification"
+        android:title=""
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_wishlist"
+        android:icon="@drawable/wishlist"
+        android:title=""
+        android:visible="true"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/action_bag"
+        android:actionLayout="@layout/layout_cart_badge"
+        android:icon="@drawable/shopping_bag_beige"
+        android:title=""
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_share"
+        android:title=""
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_filter_clear"
+        android:title="CLEAR ALL"
+        android:visible="false"
+        app:showAsAction="always" />
+
+</menu>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Ashokan/ace-kuwait/app/src/main/res/layout-ar/app_bar_main.xml" value="0.1648148148148148" />
+        <entry key="..\:/Ashokan/ace-kuwait/app/src/main/res/layout-ar/fragment_product_details.xml" value="0.2476780185758514" />
+        <entry key="..\:/Ashokan/ace-kuwait/app/src/main/res/layout/activity_dashboard.xml" value="0.1712962962962963" />
+        <entry key="..\:/Ashokan/ace-kuwait/app/src/main/res/layout/app_bar_main.xml" value="0.1712962962962963" />
+        <entry key="..\:/Ashokan/ace-kuwait/app/src/main/res/layout/fragment_product_details.xml" value="0.25" />
+        <entry key="..\:/Ashokan/ace-kuwait/app/src/main/res/layout/layout_home_bag_view.xml" value="0.1648148148148148" />
+        <entry key="..\:/Ashokan/ace-kuwait/app/src/main/res/layout/layout_home_banner_view.xml" value="0.25" />
+        <entry key="..\:/Ashokan/ace-kuwait/app/src/main/res/layout/layout_home_carousel_view.xml" value="0.25" />
+        <entry key="..\:/Ashokan/ace-kuwait/app/src/main/res/layout/layout_home_cart_view.xml" value="0.25" />
+        <entry key="..\:/Ashokan/ace-kuwait/app/src/main/res/layout/layout_home_cart_wishlist_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Ashokan/ace-kuwait/app/src/main/res/layout/layout_home_category_view.xml" value="0.25" />
+        <entry key="..\:/Ashokan/ace-kuwait/app/src/main/res/layout/layout_home_category_view_1.xml" value="0.25" />
+        <entry key="..\:/Ashokan/ace-kuwait/app/src/main/res/layout/layout_home_find_store.xml" value="0.25" />
+        <entry key="..\:/Ashokan/ace-kuwait/app/src/main/res/layout/layout_home_hero_banner_view.xml" value="0.1648148148148148" />
+        <entry key="..\:/Ashokan/ace-kuwait/app/src/main/res/layout/layout_home_textview.xml" value="0.25416666666666665" />
+        <entry key="..\:/Ashokan/ace-kuwait/app/src/main/res/layout/layout_home_timer_view.xml" value="0.25" />
+        <entry key="..\:/Ashokan/ace-kuwait/app/src/main/res/layout/layout_home_ui_adapter_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Ashokan/ace-kuwait/app/src/main/res/layout/layout_home_wishlist_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Ashokan/ace-kuwait/app/src/main/res/layout/layout_upcoming_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/ace_red_outlined_rounded_rectangle_12dp.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/ace_theme_color_outlined_rounded_rectangle_4dp.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/ace_theme_color_rounded_rectangle_2dp.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/ace_theme_red_outlined_rounded_rectangle.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/beige_rounded_rectangle_12dp_corner.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/beige_rounded_rectangle_4dp_corner.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/black_rounded_rectangle_12dp_corner.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/blue_outlined_rounded_rectangle.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/blue_outlined_rounded_rectangle_12dp_grey_fill.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/blue_outlined_rounded_rectangle_20dp.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/blue_outlined_rounded_rectangle_24dp.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/blue_outlined_rounded_rectangle_4dp.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/blue_rounded_rectangle.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/blue_rounded_rectangle_4dp.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/blue_rounded_rectangle_8dp.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/blue_small_rounded_rectangle.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/bottom_2_corner_rounded_rectangle_red_8dp.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/bottom_tab_color.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/bright_blue_rounded_rectangle_20dp.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/bronze_color_gradient.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/bronze_gradient_rounded_rectangle.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/cart_grey_outlined_rounded_rectangle.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/cart_selector.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/circle.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/green_gradient_rounded_rectangle.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/green_gradient_rounded_rectangle_12dp.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/grey_outlined_rectangle_4dp.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/grey_outlined_rounded_rectangle_12dp.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/grey_outlined_rounded_rectangle_24dp.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/ic_baseline_add_black.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/ic_baseline_horizontal_rule_24.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/ic_menu_cart.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/left_2_corner_rounded_rectangle_ace_red_8dp.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/left_bottom_rounded_rectangle_green.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/left_top_rounded_rectangle_blue_bg.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/light_grey_rounded_rectangle_4dp.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/one_corner_rounded_rectangle_blue.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/right_bottom_rounded_rectangle_grey.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/top_2_corner_rounded_rectangle_ace_red.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/drawable/top_2_corner_rounded_rectangle_ace_theme_8dp.xml" value="0.141" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout-ar/app_bar_main.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout-ar/brand_list_item.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout-ar/fragment_addressbook.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout-ar/fragment_appliance_protection.xml" value="0.11354166666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout-ar/fragment_change_language.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout-ar/fragment_filter.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout-ar/fragment_forgot_password.xml" value="0.11354166666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout-ar/fragment_login.xml" value="0.11354166666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout-ar/fragment_loyalty.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout-ar/fragment_no_appliance_protection.xml" value="0.11354166666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout-ar/fragment_order_confirmation.xml" value="0.13518518518518519" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout-ar/fragment_product_details.xml" value="0.11354166666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout-ar/fragment_reset_password.xml" value="0.11354166666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout-ar/fragment_user_account.xml" value="0.1" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout-ar/fragment_user_settings.xml" value="0.26145833333333335" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout-ar/fragment_verify_email.xml" value="0.11354166666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout-ar/layout_cart_badge.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout-ar/layout_share.xml" value="0.26145833333333335" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/activity_dashboard.xml" value="0.2686740011580776" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/activity_image_showing.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/activity_select_language.xml" value="0.1" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/activity_signin.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/app_bar_main.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_ace_filter.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_ace_home.xml" value="0.11354166666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_ace_webview.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_add_new_address.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_addressbook.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_appliance_protection.xml" value="0.33" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_back_card.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_barcode_scanner.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_cancel_order.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_cart.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_categories.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_change_language.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_change_password.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_confirm_return.xml" value="0.26145833333333335" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_contact_us.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_delivery_mode.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_dynamic_content.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_forgot_password.xml" value="0.25" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_home.xml" value="0.13518518518518519" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_home_demo.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_login.xml" value="0.25" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_my_returns.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_no_appliance_protection.xml" value="0.33" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_notifications.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_notify_me.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_order_confirmation.xml" value="0.26145833333333335" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_order_details.xml" value="0.33" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_order_history.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_order_payment.xml" value="0.13518518518518519" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_order_review.xml" value="0.25" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_order_shipping.xml" value="0.13518518518518519" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_order_summary.xml" value="0.13518518518518519" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_payment_new.xml" value="0.13518518518518519" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_place_order.xml" value="0.13518518518518519" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_product_details.xml" value="0.26145833333333335" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_product_listing.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_product_return.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_refund_initiated.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_refund_payment_details.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_reset_password.xml" value="0.21" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_return_address.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_return_reason.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_search.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_search_result.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_searched_product_listing.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_select_delivery_mode.xml" value="0.13518518518518519" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_select_refund_mode.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_select_store.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_signup.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_sort.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_store_pickup.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_sub_categories.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_track_order.xml" value="0.33" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_user_account.xml" value="0.18" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_user_profile.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_user_settings.xml" value="0.33" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_verify_email.xml" value="0.11354166666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_webview.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/fragment_wishlist.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/item_loading.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/item_network_state.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_ace_cart_item.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_ace_home_carousel_view.xml" value="0.19739583333333333" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_ace_product_view.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_address_adapter_item.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_address_book_adapter_item.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_carousel_adapter_item.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_carousel_item.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_cart_adapter_item.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_cart_badge.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_cart_dialog_new_design.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_cart_guest_user_missing_cart.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_cart_logged_user_no_data.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_checkout_product_list_item.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_description.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_detail.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_dialog_confirm_exit.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_empty_notify_me.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_filter_value.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_history_no_data.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_home_bag_view.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_home_banner_view.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_no_address.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_notification_item.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_order_confirmation.xml" value="0.26145833333333335" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_order_history_image_item.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_order_return.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_order_status_recycler_item.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_policy_adapter_item.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_product_attribute_recycler_item.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_product_item.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_profile.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_refund_mode_adapter_item.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_return_policy.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_share.xml" value="0.25" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_signup.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_upcoming_view.xml" value="0.24166666666666667" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_view_pager_image.xml" value="0.1" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/layout_wishlist_logged_user_no_data.xml" value="0.1" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/nav_header_main.xml" value="0.1" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/product_details.xml" value="0.1" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/test.xml" value="0.1" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/test23.xml" value="0.19739583333333333" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/layout/test999.xml" value="0.19739583333333333" />
+        <entry key="..\:/Hasawi Android Projects/AceHardwarekuwait/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1805" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

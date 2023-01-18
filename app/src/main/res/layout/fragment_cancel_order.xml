@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.6"
+            android:background="@color/black">
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/textView184"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/roboto_slab_regular"
+                android:text="@string/are_you_sure_to_cancel"
+                android:textColor="@color/charcoal_grey"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="32dp"
+                android:background="@drawable/ace_theme_color_rounded_rectangle_4dp"
+                android:fontFamily="@font/roboto_regular"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:text="@string/cancel_my_order"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view34" />
+
+            <Spinner
+                android:id="@+id/spinnerCancelReasons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="58dp" />
+
+            <View
+                android:id="@+id/view33"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/cart_grey"
+                app:layout_constraintEnd_toEndOf="@+id/spinnerCancelReasons"
+                app:layout_constraintStart_toStartOf="@+id/spinnerCancelReasons"
+                app:layout_constraintTop_toBottomOf="@+id/spinnerCancelReasons" />
+
+            <Spinner
+                android:id="@+id/spinnerRefund"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="@+id/spinnerCancelReasons"
+                app:layout_constraintStart_toStartOf="@+id/spinnerCancelReasons"
+                app:layout_constraintTop_toBottomOf="@+id/view33" />
+
+            <View
+                android:id="@+id/view34"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/cart_grey"
+                app:layout_constraintEnd_toEndOf="@+id/spinnerRefund"
+                app:layout_constraintStart_toStartOf="@+id/spinnerRefund"
+                app:layout_constraintTop_toBottomOf="@+id/spinnerRefund" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+</layout>

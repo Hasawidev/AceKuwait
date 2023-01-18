@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/textView204"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:fontFamily="@font/roboto_regular"-->
+        <!--            android:text="36 mm"-->
+        <!--            android:textColor="@color/charcoal_grey"-->
+        <!--            android:textSize="16sp"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/textView205"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginStart="60dp"-->
+        <!--            android:fontFamily="@font/roboto_regular"-->
+        <!--            android:text="14 mm"-->
+        <!--            android:textColor="@color/charcoal_grey"-->
+        <!--            android:textSize="16sp"-->
+        <!--            app:layout_constraintStart_toEndOf="@+id/textView204"-->
+        <!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/textView206"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginStart="60dp"-->
+        <!--            android:fontFamily="@font/roboto_regular"-->
+        <!--            android:text="Polyster"-->
+        <!--            android:textColor="@color/charcoal_grey"-->
+        <!--            android:textSize="16sp"-->
+        <!--            app:layout_constraintStart_toEndOf="@+id/textView205"-->
+        <!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/textView207"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="8dp"-->
+        <!--            android:fontFamily="@font/roboto_regular"-->
+        <!--            android:text="Case Diameter"-->
+        <!--            android:textColor="@color/cart_grey"-->
+        <!--            android:textSize="12sp"-->
+        <!--            app:layout_constraintEnd_toEndOf="@+id/textView204"-->
+        <!--            app:layout_constraintStart_toStartOf="@+id/textView204"-->
+        <!--            app:layout_constraintTop_toBottomOf="@+id/textView204" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/textView208"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="8dp"-->
+        <!--            android:fontFamily="@font/roboto_regular"-->
+        <!--            android:text="Strap Width"-->
+        <!--            android:textColor="@color/cart_grey"-->
+        <!--            android:textSize="12sp"-->
+        <!--            app:layout_constraintEnd_toEndOf="@+id/textView205"-->
+        <!--            app:layout_constraintStart_toStartOf="@+id/textView205"-->
+        <!--            app:layout_constraintTop_toBottomOf="@+id/textView205" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/textView209"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="8dp"-->
+        <!--            android:fontFamily="@font/roboto_regular"-->
+        <!--            android:text="Strap Material"-->
+        <!--            android:textColor="@color/cart_grey"-->
+        <!--            android:textSize="12sp"-->
+        <!--            app:layout_constraintEnd_toEndOf="@+id/textView206"-->
+        <!--            app:layout_constraintStart_toStartOf="@+id/textView206"-->
+        <!--            app:layout_constraintTop_toBottomOf="@+id/textView206" />-->
+
+        <TextView
+            android:id="@+id/textView210"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/stock_availability"
+            android:textColor="@color/txt_clr_green"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/recyclerviewDetails" />
+
+        <TextView
+            android:id="@+id/tvStockStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/in_stock"
+            android:textColor="@color/txt_clr_green"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView210"
+            app:layout_constraintStart_toEndOf="@+id/textView210" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerviewDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

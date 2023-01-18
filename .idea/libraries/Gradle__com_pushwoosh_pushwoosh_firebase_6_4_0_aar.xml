@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.pushwoosh:pushwoosh-firebase:6.4.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.jdks/openjdk-17.0.2/caches/transforms-2/files-2.1/9991c7d26003fdb39a5637414132b4a3/jetified-pushwoosh-firebase-6.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.jdks/openjdk-17.0.2/caches/transforms-2/files-2.1/9991c7d26003fdb39a5637414132b4a3/jetified-pushwoosh-firebase-6.4.0/res" />
+      <root url="file://$USER_HOME$/.jdks/openjdk-17.0.2/caches/transforms-2/files-2.1/9991c7d26003fdb39a5637414132b4a3/jetified-pushwoosh-firebase-6.4.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
